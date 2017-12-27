@@ -33,6 +33,7 @@ VERSIONS = {  # Map of game version to build and data versions.
     "3.17.2": (56787, "C690FC543082D35EA0AAA876B8362BEA"),
     "3.18.0": (57507, "1659EF34997DA3470FF84A14431E3A86"),
     "3.19.0": (58400, "2B06AEE58017A7DF2A3D452D733F1019"),
+    "4.1.2":  (60321, "33D9FE28909573253B7FC352CE7AEA40"),
 }
 
 flags.DEFINE_enum("sc2_version", None, sorted(VERSIONS.keys()),
